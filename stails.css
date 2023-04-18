@@ -1,0 +1,33 @@
+body	{
+	background-image: url('tausta.png');
+}
+
+h1	{
+	color: rgb(248,254,192);
+	font-family: bahnschrift condensed;
+	font-size: 270%;
+	text-align: center;
+}
+
+h2	{
+	color: rgb(248,254,192);
+	font-family: bahnschrift condensed;
+	font-size: 190%;
+	text-align: center;
+}
+
+
+p	{
+	color: rgb(238,244,182);
+	font-family: bahnschrift;
+	font-size: 130%;
+	text-align: center;
+}
+
+
+a	{
+	color: rgb(248,254,192);
+	font-family: bahnschrift condensed;
+	font-size: 110%;
+	text-align: center;
+}
