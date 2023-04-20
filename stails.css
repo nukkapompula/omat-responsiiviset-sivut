@@ -76,9 +76,39 @@ img {
 	box-shadow: 4px 4px 8px rgb(20, 0, 109);
 }
 
+.kuva1 {
+	width: 200px;
+	height: 212px;
+	float: left;
+}
+
+.kuva2 {
+	width: 200px;
+	height: 322px;
+	float: right;
+}
+
+.kuva3 {
+	width: 233px;
+	height: 200px;
+	float: left;
+}
+
+.kuva4 {
+	width: 250px;
+	height: 189px;
+	float: right;
+}
+
 /* Asettelu pienemmillä näytöillä */
 @media only screen and (max-width: 800px) {
 	nav a {
 		font-size: 80%;
+	}
+
+	.kuva1 {
+		width: 1.1em;
+		height: 1.1em;
+		float: left;
 	}
 }
