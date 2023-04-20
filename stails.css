@@ -71,4 +71,5 @@ img {
 	margin: 8px;
 	border: 2px solid rgb(238,244,182);
 	border-radius: 10px;
+	box-shadow: 4px 4px 8px rgb(20, 0, 109);
 }
