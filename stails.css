@@ -19,6 +19,7 @@ h1 {
 	font-family: bahnschrift, Arial;
 	font-size: 230%;
 	text-align: center;
+	text-shadow: 4px 4px 8px rgb(20, 0, 109);
 }
 
 h2 {
@@ -26,6 +27,7 @@ h2 {
 	font-family: bahnschrift, Arial;
 	font-size: 160%;
 	text-align: center;
+	text-shadow: 4px 4px 8px rgb(20, 0, 109);
 }
 
 p {
@@ -69,8 +71,4 @@ img {
 	margin: 8px;
 	border: 2px solid rgb(238,244,182);
 	border-radius: 10px;
-}
-
-ul {
-	display: inline;
 }
