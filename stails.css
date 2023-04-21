@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-image: url('tausta.png');
 	padding: 0px;
@@ -101,14 +105,15 @@ img {
 }
 
 /* Asettelu pienemmillä näytöillä */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 	nav a {
 		font-size: 80%;
 	}
 
-	.kuva1 {
-		width: 1.1em;
-		height: 1.1em;
-		float: left;
+	.kuva1, .kuva2, .kuva3, .kuva4 {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
 	}
 }
